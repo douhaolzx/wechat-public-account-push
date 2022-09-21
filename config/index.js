@@ -32,9 +32,9 @@ export const config = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -64,13 +64,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "okW8j59J2CTz_r6hBrFXtJFeHB7o",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "UNKNKcIGZAhO6xNkbia7YE4LhgjnOch6Jqs5Gpg97Jg",
+      useTemplateId: "KVUpwAMfPfmn-G3_gaVvfPvcJp1Nj0Ji1-MohuA4Aao",
       // 所在省份
       province: "上海",
       // 所在城市
       city: "上海",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '11-04',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -89,42 +89,7 @@ export const config = {
         {"keyword": "marry_day", date: "2022-10-06"},
       ]
     },
-    {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
+    
     // 你可以不断按格式往下增加
     // ...
   ],
