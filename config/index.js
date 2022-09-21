@@ -44,7 +44,7 @@ export const config = {
     horoscope: false,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: false,
+    birthdayMessage: true,
   },
 
   /** 每日一言 */
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "okW8j59J2CTz_r6hBrFXtJFeHB7o",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "sRRwrk1746x6LQkCS628QO8JOkYiYqzMKu-YVCKlVb8",
+      useTemplateId: "NAR64hvEAj9J4ifbweTXi9zi-TeJelvDBeSr6bNoGwA",
       // 所在省份
       province: "上海",
       // 所在城市
